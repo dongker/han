@@ -1,7 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from algorithm_0 import *
+import sys
+sys.path.append("..")
+from algorithm.algorithm_0 import *
 
 # 读取 CSV 文件
 df = pd.read_csv("hs300.csv")
